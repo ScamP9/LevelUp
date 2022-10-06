@@ -1,0 +1,87 @@
+.adaptivn-slayder{
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.adaptivn-slayder .parag img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.adaptivn-slayder .prev, .adaptivn-slayder .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: gold;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: purple;
+}
+.adaptivn-slayder .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.adaptivn-slayder .prev:hover,
+.adaptivn-slayder .next:hover {
+    background-color: rgba(139, 0, 255, 0.8);
+}
+
+.beksun-slayda{
+    position: relative;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.uneizmen-akemada {
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+}
+.noguma-pomoki-kadra{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    background-color: purple;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.deystvuyus,
+.noguma-pomoki-kadra:hover {
+    background-color: gold;
+}
+
+.adaptivn-slayder .parag {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}

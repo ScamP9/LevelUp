@@ -1,0 +1,328 @@
+@media only screen and (min-width: 1920px) {
+    .button_order {
+        width: 200px;
+        height: 80px;
+    }
+    .text_user p{
+       font-size: 35px;
+    }
+    .ingredientsBlock h3 {
+        padding: 1% 1% 1% 1%;
+        font-size: 25px;
+    }
+    .second_container p {
+        font-size: 35px;
+    }
+    .timer {
+        font-size: 55px;
+    }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+    .button_order {
+        width: 180px;
+        height: 70px;
+    }
+    .text_user p{
+        font-size: 30px;
+    }
+    .ingredientsBlock h3 {
+        padding: 1% 1% 1% 1%;
+        font-size: 22px;
+    }
+    .second_container p {
+        font-size: 30px;
+    }
+    .timer {
+        font-size: 45px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1599px) {
+    .button_order {
+        width: 160px;
+        height: 60px;
+    }
+    .text_user p{
+        font-size: 20px;
+    }
+    .ingredientsBlock h3 {
+        padding: 1% 1% 1% 1%;
+        font-size: 20px;
+    }
+    .second_container p {
+        font-size: 28px;
+    }
+    .timer {
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+    .Promo {
+
+    }
+    .name_product {
+        font-size: 20px;
+    }
+    #LevelUpVideo {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .image img{
+        width: 60%;
+        height: 100%;
+    }
+    .image {
+        align-items: center;
+    }
+    .characteristics li {
+        font-size: 15px;
+    }
+    .button_order {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        border: solid 1px gold;
+    }
+    .button_order:hover {
+        border: solid 1px purple;
+        transform: scale(1.05);
+    }
+    .ingredientsImage {
+        width: 40px;
+        height: 40px;
+    }
+    .ingredientsBlock h3 {
+        font-size: 8px;
+        width: 100%;
+    }
+    .ingredientsBlock {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle_image img {
+        width: 100%;
+        height: 100%;
+    }
+    .middle_image {
+        width: 15%;
+        margin: 0;
+    }
+    .ingredients_container {
+        margin: 3% 3% 3% 3%;
+    }
+    .arrow_right_1 {
+        top: 10px;
+        width: 40px;
+        height: 3px;
+        left:0;
+    }
+    .arrow_right_1::after {
+        width: 20px;
+        height: 3px;
+        top: -6px;
+        right: -4px;
+    }
+    .arrow_right_1::before {
+        width: 20px;
+        height: 3px;
+        top: 6px;
+        right: -4px;
+    }
+    .arrow_right_2 {
+        top: 10px;
+        width: 40px;
+        height: 3px;
+        left:0;
+    }
+    .arrow_right_2::after {
+        width: 20px;
+        height: 3px;
+        top: -6px;
+        right: -4px;
+    }
+    .arrow_right_2::before {
+        width: 20px;
+        height: 3px;
+        top: 6px;
+        right: -4px;
+    }
+    .arrow_right_3 {
+        top: 5px;
+        width: 40px;
+        height: 3px;
+        left:0;
+    }
+    .arrow_right_3::after {
+        width: 20px;
+        height: 3px;
+        top: -6px;
+        right: -4px;
+    }
+    .arrow_right_3::before {
+        width: 20px;
+        height: 3px;
+        top: 6px;
+        right: -4px;
+    }
+    .arrow_left_1 {
+        top: 10px;
+        width: 40px;
+        height: 3px;
+        left:0;
+    }
+    .arrow_left_1::after {
+        width: 20px;
+        height: 3px;
+        top: -6px;
+        left: -4px;
+    }
+    .arrow_left_1::before {
+        width: 20px;
+        height: 3px;
+        top: 6px;
+        left: -4px;
+    }
+    .arrow_left_2 {
+        top: 10px;
+        width: 40px;
+        height: 3px;
+        left:0;
+    }
+    .arrow_left_2::after {
+        width: 20px;
+        height: 3px;
+        top: -6px;
+        left: -4px;
+    }
+    .arrow_left_2::before {
+        width: 20px;
+        height: 3px;
+        top: 6px;
+        left: -4px;
+    }
+    .arrow_left_3 {
+        top: 5px;
+        width: 40px;
+        height: 3px;
+        left:0;
+    }
+    .arrow_left_3::after {
+        width: 20px;
+        height: 3px;
+        top: -6px;
+        left: -4px;
+    }
+    .arrow_left_3::before {
+        width: 20px;
+        height: 3px;
+        top: 6px;
+        left: -4px;
+    }
+    .adaptivn-slayder .parag img {
+        width: 30%;
+        height: 60%;
+    }
+    .photo {
+        display: flex;
+        justify-content: center;
+    }
+    .name_user {
+        width: 50%;
+    }
+    .name_user h3 {
+        margin: 1%;
+    }
+    .text_user {
+        width: 80%;
+    }
+    .text_user p {
+        font-size: 10px;
+    }
+    .adaptivn-slayder .prev, .adaptivn-slayder .next {
+        padding: 1%;
+        font-size: 20px;
+    }
+    .PromoAndImg {
+        margin-top: 20%;
+    }
+    .photo_product {
+        width: 40%;
+    }
+    .photo_product img{
+        width: 100%;
+    }
+    .description_product {
+        font-size: 10px;
+        width: 60%;
+    }
+    .second_container {
+        font-size: 10px;
+    }
+    .second_container p {
+        padding: 2%;
+    }
+    .Order {
+        margin-top: 20%;
+    }
+    .order_name_product {
+        font-size: 10px;
+    }
+    .timer {
+        font-size: 10px;
+    }
+    .timer h2 {
+        font-size: 12px;
+    }
+    .product_container {
+        margin-top: 10%;
+        width: 90%;
+        justify-content: space-evenly;
+    }
+    .photo_block img {
+        width: 40%;
+    }
+    .price_name h2{
+        font-size: 12px;
+    }
+    .price_h h2{
+        font-size: 10px;
+    }
+    #new_price {
+        font-size: 15px;
+    }
+    .form_first {
+        font-size: 5px;
+    }
+    .form_second {
+        font-size: 5px;
+    }
+    .buy_form {
+        width: 50%;
+        align-items: center;
+    }
+    .buy_form input {
+        width: 65px;
+        height: 15px;
+        padding: 0 5px 0 5px;
+        font-size: 11px;
+    }
+    .buy_form label {
+        font-size: 12px;
+        bottom: 0;
+        left: 5px;
+    }
+    .buy_form input:focus {
+        padding: 0 5px 0 5px;
+    }
+    .buy_form input:valid + label,
+    .buy_form input:focus + label {
+        bottom: 25px;
+        left: 60px;
+    }
+}
